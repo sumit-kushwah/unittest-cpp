@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mytests.dir/sample.cc.o"
+  "CMakeFiles/mytests.dir/sample.cc.o.d"
   "CMakeFiles/mytests.dir/test.cc.o"
   "CMakeFiles/mytests.dir/test.cc.o.d"
   "mytests"

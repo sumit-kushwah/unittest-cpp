@@ -226,6 +226,30 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+sample.o: sample.cc.o
+.PHONY : sample.o
+
+# target to build an object file
+sample.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/sample.cc.o
+.PHONY : sample.cc.o
+
+sample.i: sample.cc.i
+.PHONY : sample.i
+
+# target to preprocess a source file
+sample.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/sample.cc.i
+.PHONY : sample.cc.i
+
+sample.s: sample.cc.s
+.PHONY : sample.s
+
+# target to generate assembly for a file
+sample.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytests.dir/build.make CMakeFiles/mytests.dir/sample.cc.s
+.PHONY : sample.cc.s
+
 test.o: test.cc.o
 .PHONY : test.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... mytests"
+	@echo "... sample.o"
+	@echo "... sample.i"
+	@echo "... sample.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

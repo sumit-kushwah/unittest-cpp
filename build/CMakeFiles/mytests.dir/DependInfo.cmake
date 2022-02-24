@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/sumitkushwah/Desktop/googletest_dev/sample.cc" "CMakeFiles/mytests.dir/sample.cc.o" "gcc" "CMakeFiles/mytests.dir/sample.cc.o.d"
   "/Users/sumitkushwah/Desktop/googletest_dev/test.cc" "CMakeFiles/mytests.dir/test.cc.o" "gcc" "CMakeFiles/mytests.dir/test.cc.o.d"
   )
 
